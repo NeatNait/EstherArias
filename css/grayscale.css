@@ -128,7 +128,7 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-    background: url(../img/4.jpg) no-repeat bottom center scroll;
+    background: url(../img/4_web.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -256,14 +256,14 @@ a:focus {
 
 .psicologa-section {
     
-    background: url(../img/74H.jpg) no-repeat center center scroll;
+    background: url(../img/74H_web.jpg) no-repeat center center scroll;
     
 }
 
 .ofrezco-section {
     
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background: url(../img/51H.jpg) no-repeat center center scroll;
+    background: url(../img/51H_web.jpg) no-repeat center center scroll;
     
 }
 
