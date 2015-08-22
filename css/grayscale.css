@@ -254,17 +254,28 @@ a:focus {
     -o-background-size: cover;
 }
 
+.psi-section {
+    font-size: 20px;
+}
+
 .psicologa-section {
     
-    background: url(../img/74H_web.jpg) no-repeat center center scroll;
-    
+    background: url(../img/74h_web.jpg) no-repeat center center scroll;    
+    font-size: 20px;
+
 }
 
 .ofrezco-section {
     
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background: url(../img/51H_web.jpg) no-repeat center center scroll;
+    background: url(../img/51h_web.jpg) no-repeat center center scroll;
+    font-size: 20px;
     
+}
+
+.sexologia-text {
+    background-color: rgba(0,0,0,0.7);
+    padding: 1%;
 }
 
 
@@ -295,7 +306,7 @@ a:focus {
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;    
 }
 
 .btn-default {
@@ -361,4 +372,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    background-color: rgba(0,0,0, 0.6);
+    min-height: 130px;
 }
