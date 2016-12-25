@@ -39,7 +39,8 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    /*color: #28c3ab;*/
+    color: green;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -259,7 +260,7 @@ a:focus {
 
 .psi-section {
     font-size: 20px;
-    background-color: #eee;
+    background-color: #f3f3f3;
     color: #222;
 }
 
@@ -406,11 +407,11 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    border-color: green;
+    border-color: #d63e59;
 }
 
 .psi-icon {
-  color: green;
+  color: #d63e59;
 }
 
 .main-degrees {
@@ -422,5 +423,11 @@ hr {
 }
 
 b{
-  color: green;
+  color: #d63e59;
 }
+
+.section-icon {
+  font-size: 300px;
+}
+
+/*#d63e59*/
