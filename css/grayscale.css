@@ -241,6 +241,7 @@ a:focus {
 .content-section {
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 50px;
     /*padding-top: 100px;*/
 }
 
@@ -258,14 +259,16 @@ a:focus {
 
 .psi-section {
     font-size: 20px;
+    background-color: #eee;
+    color: #222;
 }
 
 .psicologa-section {
 
     /*background: url(../img/74h_web.jpg) no-repeat center center scroll;*/
     font-size: 20px;
-    background-color: #eee;
-    color: #333;
+    background-color: #fff;
+    color: #111;
 
 }
 
@@ -393,4 +396,31 @@ body {
   text-align: left;
   line-height: 1.58;
   letter-spacing: -.003em;
+}
+
+hr {
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: green;
+}
+
+.psi-icon {
+  color: green;
+}
+
+.main-degrees {
+  font-size: 25px;
+}
+
+.other-degrees {
+  font-size: 15px;
+}
+
+b{
+  color: green;
 }
