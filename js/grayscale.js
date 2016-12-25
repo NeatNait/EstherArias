@@ -18,6 +18,28 @@ $(function() {
     });
 });
 
+//scrollreveal
+$(function() {
+  /*
+  window.sr = ScrollReveal();
+  sr.reveal('.text-section', {duration: 800});*/
+
+  var fooReveal = {
+    delay    : 200,
+    distance : '90px',
+    easing   : 'ease-in-out',
+    duration: 2000,
+    //rotate   : { z: 10 },
+    scale    : 1
+  };
+
+  window.sr = ScrollReveal();
+  sr.reveal('.text-section', fooReveal);
+
+  sr.reveal('.psi-icon', { duration: 2000 }, 50);
+  sr.reveal('.card', { duration: 2000 }, 50);
+});
+
 //Google Map Skin - Get more at http://snazzymaps.com/
 var myOptions = {
     zoom: 15,
