@@ -40,7 +40,7 @@ p {
 
 a {
     /*color: #28c3ab;*/
-    color: green;
+    color: #d63e59;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -436,5 +436,9 @@ b{
   font-size: 300px;
 }
 
+address {
+  font-size: 20px;
+  text-align: left;
+}
 
 /*#d63e59*/
