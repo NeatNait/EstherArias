@@ -36,8 +36,8 @@ $(function() {
   window.sr = ScrollReveal();
   sr.reveal('.text-section', fooReveal);
 
-  sr.reveal('.psi-icon', { duration: 2000 }, 50);
-  sr.reveal('.card', { duration: 2000 }, 50);
+  //sr.reveal('.psi-icon', { duration: 2000 }, 50);
+  sr.reveal('.card', fooReveal, 100);
 });
 
 //Google Map Skin - Get more at http://snazzymaps.com/
