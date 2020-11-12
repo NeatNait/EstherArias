@@ -18,6 +18,22 @@ $(function() {
     });
 });
 
+//$(".other-degrees").hide();
+$("#showLessDegrees").hide();
+
+//jQuery for showing "publicaciones"
+$( "#showMoreDegrees").click(function(){
+    $(".other-degrees").show("slow", function(){})
+    $("#showLessDegrees").show()
+    $("#showMoreDegrees").hide()
+})
+
+$( "#showLessDegrees").click(function(){
+    $(".other-degrees").hide("slow", function(){})
+    $("#showMoreDegrees").show()
+    $("#showLessDegrees").hide()
+})
+
 //scrollreveal
 $(function() {
   /*
